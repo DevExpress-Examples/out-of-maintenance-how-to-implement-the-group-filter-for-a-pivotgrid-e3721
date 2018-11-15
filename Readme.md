@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Default.aspx](./CS/ASPxPivotGrid_GroupFilter/Default.aspx) (VB: [Default.aspx](./VB/ASPxPivotGrid_GroupFilter/Default.aspx))
+* [Default.aspx.cs](./CS/ASPxPivotGrid_GroupFilter/Default.aspx.cs) (VB: [Default.aspx](./VB/ASPxPivotGrid_GroupFilter/Default.aspx))
+<!-- default file list end -->
 # How to implement the group filter for a PivotGrid
 
 
