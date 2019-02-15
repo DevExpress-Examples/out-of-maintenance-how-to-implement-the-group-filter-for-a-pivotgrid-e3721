@@ -4,12 +4,20 @@
 * [Default.aspx](./CS/ASPxPivotGrid_GroupFilter/Default.aspx) (VB: [Default.aspx.vb](./VB/ASPxPivotGrid_GroupFilter/Default.aspx.vb))
 * [Default.aspx.cs](./CS/ASPxPivotGrid_GroupFilter/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/ASPxPivotGrid_GroupFilter/Default.aspx.vb))
 <!-- default file list end -->
-# How to implement the group filter for a PivotGrid
+# How to Implement a Group Filter for the Pivot Grid
 
 
-<p>The following example illustrates how to apply custom group filters to a PivotGrid control's data.</p><p>In this example, four preset group filter conditions can be applied to PivotGrid. To switch between them, use the list displayed above the pivot grid. The group filter conditions are applied in code by setting an appropriate filter type using the PivotGroupFilterValues.FilterType property, and adding group filter values to the PivotGroupFilterValues.Values collection.</p><br />
+This example demonstrates how to create custom group filters for the PivotGrid control's data.
+
+API in this example:
+
+* [ASPxPivotGrid.Groups](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPivotGrid.ASPxPivotGrid.Groups)
+* [PivotGridGroup.GetUniqueValues](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPivotGrid.PivotGridGroup.GetUniqueValues(System.Object--))
+* [PivotGridGroup.FilterValues](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPivotGrid.PivotGridGroup.FilterValues)
+* [PivotGroupFilterValues.FilterType](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPivotGrid.PivotGroupFilterValues.FilterType)
+* [PivotGroupFilterValues.Values](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPivotGrid.PivotGroupFilterValues.Values)
 
 
-<br/>
+See also:
 
-
+* [Field Groups](https://docs.devexpress.com/AspNet/7264)

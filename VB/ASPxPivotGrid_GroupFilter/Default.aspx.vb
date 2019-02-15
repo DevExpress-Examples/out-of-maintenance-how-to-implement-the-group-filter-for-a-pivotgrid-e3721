@@ -1,13 +1,12 @@
-Imports Microsoft.VisualBasic
-Imports System
+﻿Imports System
 Imports System.Web.UI
 Imports DevExpress.XtraPivotGrid
 
 Namespace ASPxPivotGrid_GroupFilter
 	Partial Public Class _Default
 		Inherits Page
-        Protected Sub ASPxRadioButtonList1_SelectedIndexChanged(ByVal sender As Object, _
-                                                                ByVal e As EventArgs)
+
+		Protected Sub ASPxRadioButtonList1_SelectedIndexChanged(ByVal sender As Object, ByVal e As EventArgs)
 			Dim group As PivotGridGroup = ASPxPivotGrid1.Groups(0)
 			group.FilterValues.Reset()
 			Select Case ASPxRadioButtonList1.SelectedIndex
