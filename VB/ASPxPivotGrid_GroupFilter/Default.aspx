@@ -26,14 +26,14 @@
 					Border-BorderStyle="None">
 					<Items>
 						<dx:ListEditItem Text="Show all data" Value="0" Selected="true"/>
-						<dx:ListEditItem Text="Show December 1994 and January 1995 only" Value="1"/>
-						<dx:ListEditItem Text="Hide 1994 year" Value="2"/>
+						<dx:ListEditItem Text="Show December 2014 and January 2015 only" Value="1"/>
+						<dx:ListEditItem Text="Hide 2014 year" Value="2"/>
 						<dx:ListEditItem Text="Show first month days only" Value="3"/>
 					</Items>
 				</dx:ASPxRadioButtonList>
 			</div>
 			<div>
-				<dx:ASPxPivotGrid ID="ASPxPivotGrid1" runat="server" Width="900px"
+				<dx:ASPxPivotGrid ID="ASPxPivotGrid1" runat="server" Width="800px"
 					DataSourceID="AccessDataSource1">
 					<Fields>
 						<dx:PivotGridField ID="fieldShippedYear" Area="ColumnArea" AreaIndex="0" 

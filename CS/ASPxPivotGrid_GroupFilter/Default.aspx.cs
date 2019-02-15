@@ -15,14 +15,14 @@ namespace ASPxPivotGrid_GroupFilter {
                     break;
                 case 1:
                     group.FilterValues.FilterType = PivotFilterType.Included;
-                    group.FilterValues.Values.Add(1994).ChildValues.Add(12);
-                    group.FilterValues.Values.Add(1995).ChildValues.Add(1);
+                    group.FilterValues.Values.Add(2014).ChildValues.Add(12);
+                    group.FilterValues.Values.Add(2015).ChildValues.Add(1);
                     fieldShippedYear.ExpandAll();
                     fieldShippedMonth.CollapseAll();
                     break;
                 case 2:
                     group.FilterValues.FilterType = PivotFilterType.Excluded;
-                    group.FilterValues.Values.Add(1994);
+                    group.FilterValues.Values.Add(2014);
                     fieldShippedYear.CollapseAll();
                     fieldShippedMonth.CollapseAll();
                     break;
