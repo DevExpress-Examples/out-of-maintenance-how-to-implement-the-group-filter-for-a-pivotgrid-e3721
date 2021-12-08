@@ -17,7 +17,7 @@
 
 This example demonstrates how to create custom group filters for the PivotGrid control's data.
 
-![screenshot](https://github.com/DevExpress-Examples/how-to-implement-the-group-filter-for-a-pivotgrid-e3721/blob/13.1.5%2B/images/screenshot.png)
+![screenshot](./images/screenshot.png)
 
 API in this example:
 
